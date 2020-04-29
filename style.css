@@ -4,37 +4,48 @@ body {
   text-align: left;
   font-family: 'Merriweather', serif;
   text-decoration: none;
-   
+  color: fuchsia; 
+  background-color: #1d1d1d; 
+  flex-wrap: wrap;
 }
 
+  main {
+  
+    display: flex;  /*IDE KELL??*/
+    flex-wrap: wrap;
+    padding: 50px 100px 50px 200px;
+    align-items: center;
+    line-height: 2;  
+        
+  }
+   
+
+
 header {
-  width: 1200px;
-  height: 400px;
+  width: 400px;
+  height: 300px;
   font-family: 'Abril Fatface', cursive;
-  font-size: 26px;
+  font-size: 30px;
   font-weight: 300;
   letter-spacing: 1px;
   line-height: 1;
-  color: #222;
-  background-image: url('http://stayathome-syllabus.greenfox.academy/week01/assets/first-website-header.pngg');
-  background-repeat: no-repeat;  
-  background-size: 400px;
+  padding-bottom: 5%;
+  /* color: #222; */
  
 }
 
 h1, h3 {
-  position: relative;
+ position: relative;
  top: 50%;
  font-family: 'Abril Fatface', cursive;
  font-weight: 300;
- color: #222;
+/* color: #222; */
  padding-left: 200px;
  font-weight: 300;
-/* z-index: 2;*/
 }
 
 h2 {
-  color: #fff;
+ /* color: #fff; */
   background-color: #444444;
   padding: 0px 0px 0px 0px;
   font-family: 'Abril Fatface', cursive;
@@ -72,10 +83,10 @@ h4 {
 
 
 h5 {
-    font-size: 22px;
-   font-family: 'Josefin Sans', sans-serif;
-   font-weight: 600;
-    margin: 0;
+  font-size: 22px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 600;
+  margin: 0;
 }
 
 h6 {
@@ -86,14 +97,7 @@ h6 {
   font-size: 15px;
 }
 
-main {
-  
-  display: flex;  /*IDE KELL??*/
-  flex-wrap: wrap;
-  padding: 50px 100px 50px 200px;
-  align-items: center;
-  line-height: 2;         
-}
+
 
 section {
   border-top: 3px solid;
@@ -103,7 +107,7 @@ p {
   font-family: 'Josefin Sans', sans-serif;
   font-size: 16px;
   font-weight: 100;
-  color: #222;
+ /* color: #222; */
   width: 700px;
   margin: 0;
 }
@@ -113,8 +117,9 @@ p {
 }
 
 img {
-  height: 300px;
+  height: 400px;
   width:400px;
+  float: right;
 }
 
 ul {
@@ -127,7 +132,7 @@ ul {
 .btn-group button {
   background-color: #1d1d1d;
   border: none;
-  color: white;
+  color: fuchsia; 
   padding: 10px 24px;
   cursor: pointer; /* Pointer/hand icon */
   float: left; /* Float the buttons side by side */
