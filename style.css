@@ -1,49 +1,49 @@
 body {
-  width: 1200px;
+  width: 700px;
   margin: 0 auto;
   text-align: left;
-  font-family: 'Merriweather', serif;
+  font-family: 'Karla', sans-serif;
   text-decoration: none;
   color: fuchsia; 
   background-color: #1d1d1d; 
   flex-wrap: wrap;
 }
 
-  main {
+main {
   
-    display: flex;  /*IDE KELL??*/
-    flex-wrap: wrap;
-    padding: 50px 100px 50px 200px;
-    align-items: center;
-    line-height: 2;  
-        
-  }
+  display: flex;  /*IDE KELL??*/
+  flex-wrap: wrap;
+  padding: 50px 0px;
+  align-items: center;
+  line-height: 2;  
+     
+}
    
-
-
 header {
   width: 400px;
-  height: 300px;
-  font-family: 'Abril Fatface', cursive;
-  font-size: 30px;
-  font-weight: 300;
-  letter-spacing: 1px;
+  height: 480px;
+  font-family: 'Manrope', sans-serif;
+  font-weight: 800;
+  font-size:21px;
+  letter-spacing: 3px;
   line-height: 1;
-  padding-bottom: 5%;
-  /* color: #222; */
- 
+ /* color: #222; */
+  padding: 0px 20px 60px 0px;
+  background-color: #333333;
+  
+ }
+
+img {
+  height: 500px;
+  float: left;
+
+  border: 20px solid #333333;
 }
 
-h1, h3 {
- position: relative;
- top: 50%;
- font-family: 'Abril Fatface', cursive;
- font-weight: 300;
-/* color: #222; */
- padding-left: 200px;
- font-weight: 300;
+h1 {
+  font-family: 'Rubik Mono One', sans-serif;
+  font-weight: 400;
 }
-
 h2 {
  /* color: #fff; */
   background-color: #444444;
@@ -51,7 +51,7 @@ h2 {
   font-family: 'Abril Fatface', cursive;
   font-weight: 20;
   font-size: 45px;
-  letter-spacing: 1px;
+  letter-spacing: 3px;
   width: 750px;
   margin: 0;  
   flex: center;
@@ -71,6 +71,16 @@ h2::before {
   line-height: 0;
   }
 
+  h3 {
+    font-family: 'Sacramento', cursive;
+    font-size: 37px;
+    font-weight: 100;
+    line-height: 1.5;
+   /* text-transform: uppercase;*/
+    text-align: center;
+    letter-spacing: 1px;
+    line-height: 2.5;
+  }
 
 h4 {
   text-transform: uppercase;
@@ -114,12 +124,8 @@ p {
 
 .bevezeto {
     font-size: 22px;
-}
+    text-align: justify;
 
-img {
-  height: 400px;
-  width:400px;
-  float: right;
 }
 
 ul {
@@ -155,3 +161,8 @@ ul {
 /* Add a background color on hover */
 .btn-group button:hover {
   background-color: #333333;
+}
+
+  .flex-container {
+    display: flex;
+  }
