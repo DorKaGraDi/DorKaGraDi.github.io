@@ -7,6 +7,9 @@ body {
   color: fuchsia; 
   background-color: #1d1d1d; 
   flex-wrap: wrap;
+  font-size: 22px;
+  /* text-align: justify;*/
+  line-height: 2;
 }
 
 main {
@@ -33,6 +36,8 @@ header {
   
  }
 
+ 
+
 img {
   height: 500px;
   float: left;
@@ -43,20 +48,21 @@ img {
 h1 {
   font-family: 'Rubik Mono One', sans-serif;
   font-weight: 400;
+  font-size: 43.5px;
 }
 h2 {
  /* color: #fff; */
   background-color: #333333;
   padding: 0px 0px 0px 0px;
-  font-family: 'Abril Fatface', cursive;
-  font-weight: 20;
-  font-size: 45px;
-  letter-spacing: 3px;
+  font-family: 'Sacramento', cursive;
+  font-size: 49px;
+  font-weight: 100;
+  line-height: 1.5;
   width: 750px;
   margin: 0;  
   flex: center;
   border: 40px solid #333333;
-  line-height: 1.5;
+  
 }
 
 /*h2::after {
@@ -72,14 +78,16 @@ h2::before {
   }
 
   h3 {
-    font-family: 'Sacramento', cursive;
-    font-size: 37px;
+    font-family: 'Rubik Mono One', sans-serif;
     font-weight: 100;
+    font-size: 13px;
+    letter-spacing: 1px;
     line-height: 1.5;
    /* text-transform: uppercase;*/
-    text-align: center;
+    text-align: right;
     letter-spacing: 1px;
-    line-height: 2.5;
+    line-height: 4;
+    tes
   }
 
 h4 {
@@ -123,9 +131,7 @@ p {
 }
 
 .bevezeto {
-    font-size: 22px;
-  /* text-align: justify;*/
-  line-height: 2;
+
 
 }
 
@@ -135,18 +141,22 @@ ul {
   font-family: 'Josefin Sans', sans-serif;
   font-size: 20px;
   font-weight: 100;
+  text-justify: inter-cluster;
 }
 
 .btn-group button {
   background-color: #1d1d1d;
   border: none;
   color: fuchsia; 
-  padding: 10px 24px;
+  padding: 30px 0px;
+  margin: 0;
   cursor: pointer; /* Pointer/hand icon */
   float: left; /* Float the buttons side by side */
-  font-family: 'Josefin Sans', sans-serif;
-  font-size: 20px;
-  font-weight: 100;
+  font-family: 'Rubik Mono One', sans-serif;
+  font-weight: 300;
+  font-size:12px;
+  letter-spacing: 1px;
+  line-height: 0;
 }
 
 .btn-group button:not(:last-child) {
@@ -160,11 +170,33 @@ ul {
   display: table;
 }
 
-/* Add a background color on hover */
 .btn-group button:hover {
   background-color: #333333;
 }
 
   .flex-container {
     display: flex;
+  }
+
+  #email {
+    background-color: fuchsia;
+  }
+
+  dl { width: 700px }
+  dt { float: left; width: 500px; overflow: hidden; white-space: nowrap; }
+  dd { float: left; width: 200px; overflow: hidden; margin: 0px; text-align: end;}
+
+  dt:after { content: " ........................................................................................................................................................................................................................................................................................................." }
+
+  .nini {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .nini img {
+    display: block;
+    max-width: 660px ;
+    width: auto;
+    height: auto;
   }
