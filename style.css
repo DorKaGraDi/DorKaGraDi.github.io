@@ -2,7 +2,7 @@ body {
   width: 700px;
   margin: 0 auto;
   text-align: left;
-  font-family: 'Karla', sans-serif;
+  font-family: 'Quicksand', sans-serif;
   text-decoration: none;
   color: fuchsia; 
   background-color: #1d1d1d; 
@@ -23,9 +23,9 @@ main {
 }
    
 header {
-  width: 400px;
+  width: 322px;
   height: 480px;
-  font-family: 'Manrope', sans-serif;
+  font-family: 'Quicksand', sans-serif;
   font-weight: 800;
   font-size:21px;
   letter-spacing: 3px;
@@ -36,6 +36,12 @@ header {
   
  }
 
+ .grafikus {
+      font-size: 24px;
+      font-weight: 100;
+      
+
+ }
  
 
 img {
@@ -54,8 +60,9 @@ h2 {
  /* color: #fff; */
   background-color: #333333;
   padding: 0px 0px 0px 0px;
-  font-family: 'Sacramento', cursive;
-  font-size: 49px;
+  font-family: 'Rubik Mono One', sans-serif;
+  font-size: 26x;
+  font-style: italic;
   font-weight: 100;
   line-height: 1.5;
   width: 750px;
@@ -87,14 +94,14 @@ h2::before {
     text-align: right;
     letter-spacing: 1px;
     line-height: 4;
-    tes
+  
   }
 
 h4 {
   text-transform: uppercase;
   letter-spacing: 2px;
   font-size: 24px;
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Quicksand', sans-serif;
   font-weight: 600;
   letter-spacing: 1px;
 }
@@ -102,7 +109,7 @@ h4 {
 
 h5 {
   font-size: 22px;
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Quicksand', sans-serif;
   font-weight: 600;
   margin: 0;
 }
@@ -110,7 +117,7 @@ h5 {
 h6 {
   font-style: italic;
   letter-spacing: 1px;
-  font-family: 'Merriweather', serif;
+  font-family: 'Quicksand', sans-serif;
   margin: 0;
   font-size: 15px;
 }
@@ -122,9 +129,10 @@ section {
 }
 
 p {
-  font-family: 'Josefin Sans', sans-serif;
-  font-size: 16px;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 18px;
   font-weight: 100;
+  letter-spacing: 0.8px;
  /* color: #222; */
   width: 700px;
   margin: 0;
@@ -138,7 +146,7 @@ p {
 
 ul {
   list-style-type: square;
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Quicksand', sans-serif;
   font-size: 20px;
   font-weight: 100;
   text-justify: inter-cluster;
@@ -179,14 +187,22 @@ ul {
   }
 
   #email {
-    background-color: fuchsia;
+    /* border: 1px solid fuchsia;
+    background-color: rgb(255, 255, 255); */
+    color: lightskyblue;
+    
+  } 
+
+  dl { width: 700px 
+  font-family:'Quicksand', sans-serif;
+  font-size: 18px;
+  font-weight: 100;
+  letter-spacing: 0.8px;
   }
-
-  dl { width: 700px }
   dt { float: left; width: 500px; overflow: hidden; white-space: nowrap; }
-  dd { float: left; width: 200px; overflow: hidden; margin: 0px; text-align: end;}
+  dd { float: left; width: 200px; overflow: visible; margin: 0px; text-align: end;}
 
-  dt:after { content: " ........................................................................................................................................................................................................................................................................................................." }
+  dt:after { content: " ......................................................................................................................................................................................................................." }
 
   .nini {
     display: flex;
@@ -199,4 +215,12 @@ ul {
     max-width: 660px ;
     width: auto;
     height: auto;
+  }
+
+  a:hover {
+    color: indianred;
+    border: 1px solid fuchsia;
+  }
+  a:visited {
+    color: indigo;
   }
